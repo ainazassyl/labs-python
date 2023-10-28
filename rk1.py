@@ -46,7 +46,7 @@ if choice in ('1', '2', '3', '4'):
 else:
     print("Invalid input")
 
-#3
+3
 dlina = int(input("Please enter the length of Fibonacci sequence: "))
 fibonacci = [1, 1]
 for i in range(2, dlina):
