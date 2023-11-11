@@ -11,12 +11,12 @@ result = get_keys_with_value_true(my_dict)
 print(result)
 
 # Task1.2
-def get_unique_elements(lst):
-    unique_lst = []
-    for num in lst:
-        if lst.count(num) == 1:
-            unique_lst.append(num)
-    return unique_lst
+def get_unique_elements(list):
+    unique_list = []
+    for num in list:
+        if list.count(num) == 1:
+            unique_list.append(num)
+    return unique_list
 
 input_list = [1, 2, 3, 1, 2, 4]
 output = get_unique_elements(input_list)

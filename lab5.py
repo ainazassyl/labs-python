@@ -168,6 +168,3 @@ for user, transactions_info in stats.items():
 
 stats = dict(stats)
 print("stats = ", stats)
-
-
-
